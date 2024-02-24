@@ -1,0 +1,206 @@
+{
+    "design": {
+        "header": {
+            "img": "http://localhost:3000/assets/MainBanner.png",
+            "enable": true
+        },
+        "title": {
+            "enable": true,
+            "color": "red",
+            "text": "Discover Your Rashi, Gemstones, Rudraksha and Bracelet Recommendation"
+        },
+        "form": {
+            "color": "#d92626"
+        },
+        "tableimage": {
+            "img": "http://localhost:3000/assets/sidebar.png",
+            "enable": true
+        },
+        "footer": {
+            "img": "http://localhost:3000/assets/creative-img.jpg",
+            "enable": true
+        },
+        "rudraksh": [
+            {
+                "name": "one-Mukhi Rudraksha",
+                "img": null,
+                "description": null,
+                "link": null
+            },
+            {
+                "name": "Two-Mukhi Rudraksha",
+                "img": null,
+                "description": null,
+                "link": null
+            },
+            {
+                "name": "Three-Mukhi Rudraksha",
+                "img": null,
+                "description": null,
+                "link": null
+            },
+            {
+                "name": "Four-Mukhi Rudraksha",
+                "img": null,
+                "description": null,
+                "link": null
+            },
+            {
+                "name": "Six-Mukhi Rudraksha",
+                "img": null,
+                "description": null,
+                "link": null
+            },
+            {
+                "name": "Seven-Mukhi Rudraksha",
+                "img": null,
+                "description": null,
+                "link": null
+            },
+            {
+                "name": "Nine-Mukhi Rudraksha",
+                "img": null,
+                "description": null,
+                "link": null
+            },
+            {
+                "name": "Thirteen-Mukhi Rudraksha",
+                "img": null,
+                "description": null,
+                "link": null
+            }
+        ],
+        "gems": [
+            {
+                "name": "Moonga",
+                "img": null,
+                "description": null,
+                "link": null
+            },
+            {
+                "name": "Panna",
+                "img": null,
+                "description": null,
+                "link": null
+            },
+            {
+                "name": "Ruby",
+                "img": null,
+                "description": null,
+                "link": null
+            },
+            {
+                "name": "Neelam",
+                "img": null,
+                "description": null,
+                "link": null
+            },
+            {
+                "name": "Opal",
+                "img": null,
+                "description": null,
+                "link": null
+            },
+            {
+                "name": "Pukhraj(Yellow sapphire)",
+                "img": null,
+                "description": null,
+                "link": null
+            },
+            {
+                "name": "Amethyst",
+                "img": null,
+                "description": null,
+                "link": null
+            }
+        ],
+        "bracelet": [
+            {
+                "name": "Sun stone",
+                "img": null,
+                "description": null,
+                "link": null
+            },
+            {
+                "name": "Amethyst",
+                "img": null,
+                "description": null,
+                "link": null
+            },
+            {
+                "name": "7-chakra",
+                "img": null,
+                "description": null,
+                "link": null
+            },
+            {
+                "name": "Natural turquise",
+                "img": null,
+                "description": null,
+                "link": null
+            },
+            {
+                "name": "Cat eye",
+                "img": null,
+                "description": null,
+                "link": null
+            },
+            {
+                "name": "Golden obsidian",
+                "img": "test",
+                "description": null,
+                "link": null
+            },
+            {
+                "name": "Green aventurian",
+                "img": null,
+                "description": null,
+                "link": null
+            },
+            {
+                "name": "Rudraksh crystal",
+                "img": "test",
+                "description": null,
+                "link": null
+            },
+            {
+                "name": "Dalmatian",
+                "img": null,
+                "description": null,
+                "link": null
+            },
+            {
+                "name": "Rose quartz",
+                "img": "test",
+                "description": null,
+                "link": null
+            },
+            {
+                "name": "Tiger eye",
+                "img": "test",
+                "description": null,
+                "link": null
+            },
+            {
+                "name": "Sodalite",
+                "img": null,
+                "description": null,
+                "link": null
+            },
+            {
+                "name": "Hematite",
+                "img": null,
+                "description": null,
+                "link": null
+            }
+        ],
+        "resultbox": {
+            "userinput": true,  
+            "rashidetails": true,
+            "gems": true,
+            "bracelet": true,
+            "rudraksh": true,
+            "product": true
+        }
+    }
+}
