@@ -1,6 +1,9 @@
 import React from "react";
+import { useSelector } from "react-redux";
+import store from "../../store/index";
 
 const Braceletname = () => {
+  const dataView = useSelector((store) => store.result);
   return (
     <div className="row">
       <div
@@ -14,20 +17,11 @@ const Braceletname = () => {
         id="braceletText"
         className="col-7 col-md-5 contentTableData"
       >
-        <a
-          style={{ color: "#813C53" }}
-          href="https://gemsmantra.com/collections"
-        >
-          Cat eye
-        </a>
-        ,
-        <a
-          style={{ color: "#813C53" }}
-          href="https://gemsmantra.com/collections"
-        >
-          Amethyst
-        </a>{" "}
-        are best for you
+        {dataView.data.data.bracelet[0].name}
+        {", "}
+        {dataView.data.data.bracelet[1].name}
+        {" "}
+        is best for you
       </div>
     </div>
   );

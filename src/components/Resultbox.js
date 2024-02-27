@@ -17,7 +17,7 @@ const Resultbox = () => {
         decoding="async"
         id="resultBoxMain"
         alt=""
-        src="https://gemsmantra.in/wp-content/plugins/plugin-astrologyCalculatorBloomx/img/resultbanner.jpg"
+        src={process.env.REACT_APP_RESOURCE_URL+"/resultbanner.webp"}
       />
       <div id="loadingProcessDataShow" style={{ display: "block" ,paddingBottom: "60px"}}>
         <div

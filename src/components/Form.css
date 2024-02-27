@@ -30,8 +30,9 @@
     text-align: center;
     background-color: white;
     padding: 20px;
-    border-radius: 30px;
+    /* border-radius: 30px; */
     scale: .9;
+    border:1px solid black;
 }
 
 #boxSuggesstionDetailsIn div p {
@@ -42,7 +43,7 @@
 }
 
 #boxSuggesstionDetailsIn div a {
-    border-radius: 6px;
+    /* border-radius: 6px; */
     color: white;
     font-size: 20px;
     padding: 6px;

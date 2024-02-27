@@ -1,6 +1,9 @@
 import React from "react";
+import { useSelector } from "react-redux";
+import store from "../../store/index";
 
 const Gemsname = () => {
+  const dataView = useSelector((store) => store.result);
   return (
     <div className="row">
       <div
@@ -14,13 +17,9 @@ const Gemsname = () => {
         id="gemsText"
         className="col-7 col-md-5 contentTableData"
       >
-        <a
-          style={{ color: "#813C53" }}
-          href="https://gemsmantra.com/collections"
-        >
-          Ruby
-        </a>{" "}
-        (3 - 5 Ratti) is best for you
+        {dataView.data.data.gems[0].name}
+        {" "}
+        is best for you
       </div>
     </div>
   );

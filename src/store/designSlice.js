@@ -223,7 +223,7 @@ export const fetchInitialState = () => async (dispatch) => {
   try {
     const apiUrl = process.env.REACT_APP_API_URL;
     const response = await axios.get(apiUrl); // Replace with your API endpoint
-    dispatch(designSlice.actions.setInitialState(response.data)); // Assuming your API returns the initial state
+    dispatch(designSlice.actions.setInitialState(response.data.data)); // Assuming your API returns the initial state
   } catch (error) {
     console.error("Error fetching initial state:", error);
   }
